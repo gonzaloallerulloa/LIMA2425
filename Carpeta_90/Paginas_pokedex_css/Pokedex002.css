@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(199, 191, 188);
+    background-image: url("../imaxes_pokedex/fondo2.jpeg") ;
+ 
+    background-repeat: no-repeat;
+ 
+}   
+.Tabla_info{
+    background-color: rgb(129, 204, 141);
+    text-align: center;
+    color: rgb(20, 19, 13);
+}
+.Tabla_adicional{
+    background-color:  rgb(129, 204, 141);
+    color: rgb(20, 19, 13);
+}
+.Tabla_evolucion{
+      background-color:  rgb(129, 204, 141);
+    color: rgb(20, 19, 13);
+
+}
