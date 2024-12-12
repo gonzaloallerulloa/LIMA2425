@@ -1,0 +1,136 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    color:rgb(202, 202, 202)
+    
+}
+body{background-color: rgb(36, 32, 28);
+    
+}
+
+header {display: flex;
+    flex-direction: column;
+    text-align: center; 
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgb(238, 241, 241);
+    font-size: 30px;
+    color:rgb(221, 214, 109) ;
+}
+nav li{
+    display: inline;
+    border-right:solid rgb(221, 214, 109) ;
+    border-left:solid rgb(221, 214, 109);
+    color: white;
+    padding: 1%;
+    background-image: url();
+    
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-left: 15%;
+    margin-right:15%;
+    border-top: solid   rgb(221, 214, 109);;
+    border-bottom: inset  rgb(221, 214, 109);;
+    background-image: url(Pag_Principal/imagenes_Inicio/130610.gif);
+}
+a:hover{
+    background-color: rgb(167, 212, 109);
+}
+a:before{
+
+}
+
+
+h2 {display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+p{
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
+ol {
+    margin-left: 10%;
+}
+.Imaxecabecera{
+
+    height: 240px;
+    width: 100%;
+
+}
+#imaxeprincipal{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.imagenEquipo{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:inherit;
+
+    background-image: url(Pag_Principal/imagenes_Inicio/130610.gif);
+}     
+.textoequipo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: rgb(36, 35, 35);
+}
+
+.sabermas{
+    background-color: green;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: rgb(55, 45, 100);
+}
+.lista_Siguiente{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 3%;
+   
+}
+.anuncio{
+    display: flex;
+    flex-direction: column;
+    margin-left: 35%;
+    
+    width: 300px;
+    height: 400px;
+    background-color: rgb(117, 114, 114);
+   
+}
+a:hover{
+    color:rgb(231, 225, 188) ;
+}
+a:link{
+    color: gainsboro;
+    text-decoration: none;
+
+}
+a:visited{
+    background-color: white;
+    color:rgb(221, 196, 159) ;
+}
+.div_padre{
+    background-color: rgb(32, 26, 26);
+    height: 70%;
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 1em;
+}
