@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title> Formularios HTML </title>
+        <link rel="stylesheet" href="formuquiz.css">
+        <link rel="shortcut icon" href="../imagenes/pokeretro.png" />
+    </head>
+    <body>
+        <button class="boton_atras"><a href="../Pag_Principal/Inicio.html">Atrás</a></button>
+        <div class="div_padre">
+        <form action="action_page.php" method="post">
+            <fieldset>
+                <legend>Empecemos...</legend>
+                <h4> ¿Eres Chico o Chica? </h4>
+                <img src="imaxes_form/Chico_Chica.gif"  width="40%">
+             
+                <input type="radio" id="Chico" name="Sexo" value="Chico">
+                <label for="Chico">Chico</label><br>
+                <input type="radio" id="Chica" name="Sexo" value="Chica">
+                <label for="Chica">Chica</label><br>
+                
+
+              
+                <fieldset>
+                    <legend>Que tipo/tipos te gustan?</legend>
+                    <input type="checkbox" id="boxchoice" name="boxchoice" value="boxchoice">
+                    <label for="boxchoice">Planta </label>
+                    <input type="checkbox" id="boxchoice2" name="boxchoice2" value="boxchoice2">
+                    <label for="boxchoice2">Fuego</label>
+                    <input type="checkbox" id="boxchoice3" name="boxchoice2" value="boxchoice2">
+                    <label for="boxchoice3">Agua</label>
+                    <input type="checkbox" id="boxchoice" name="boxchoice" value="boxchoice">
+                    <label for="boxchoice4">Bicho </label>
+                    <input type="checkbox" id="boxchoice2" name="boxchoice2" value="boxchoice2">
+                    <label for="boxchoice5">Hielo</label>
+                    <input type="checkbox" id="boxchoice3" name="boxchoice2" value="boxchoice2">
+                    <label for="boxchoice6">Roca</label>
+                    </fieldset>
+            </fieldset>
+            <fieldset>
+            <legend> Datos del personaje</legend>
+            <br><label for="Nombre">Nombre *</label><br>
+            <input type="text" id="Nombre" name="Nombre" required><br>
+            <label for="Apellido1"> apellido 1 *</label><br>
+            <input type="text" id="Apellido1" name="Apellido1" required><br>
+            <label for="Apellido2"> apellido 2</label><br>
+            <input type="text" id="Apellido2" name="Apellido2"><br><br>
+            </fieldset>
+            <fieldset>
+            <legend>Datos Usuario</legend>
+            <label>Pon tu correo en este cuadrado</label><br><br>
+            <label for="email"> Correo</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="userid"> Nombre Usuario: </label>
+            <br>
+            <input type="text" id="userid" name="username"><br/>
+            <label for="userpass"> Contraseña: </label><br>
+            <input type="password" id="userpass" name="userpass"><br>
+            <label for="userpass"> Repetir Contraseña : </label><br>
+            <input type="password" id="userpass" name="userpass"><br>
+            <br><label for="telefono">Telefono </label><br>
+            <input type="tel" id="telefono" name="Telefono"><br>
+          
+            </fieldset>
+            <fieldset>
+            <legend>Datos opcionales</legend>
+            <br><br><label>Altura en cm</label><br>
+            <input type="number" id="number" name="number" min="0" max="240" step="2"><br><br>
+            <label for="date">Fecha de nacimiento</label><br>
+            <input type="date" id="date" name="date" min="1899-01-01" max="2024-12-31">
+         
+            <label for="favcolor">Color Favorito</label>
+            <input type="color" id="favcolor" name="favcolor" value="#ff0000" required>
+           
+            <video width="320" height="240" controls autoplay>
+                <source src="../imagenes/video/videoplayback (1).mp4" type="video/mp4"></fieldset>
+            <fieldset>
+                <legend>Terminos y condiciones</legend>
+                <h4> Acepto todos los terminos y condiciones </h4>
+                <input type="radio" id="Aceptar" name="Terminos" value="Aceptar">
+                <label for="Aceptar">Aceptar y enviar</label><br>
+                <input type="radio" id="Denegar" name="Terminos" value="Denegar">
+                <label for="denegar">Rechazar y subscribirse</label><br>
+               
+                    
+                  
+               
+                <br><br><h3> Enviar</h3>
+                <input class="submit1" type="submit" value="Submit">
+            </fieldset>
+        </form>
+        </div>
+    </body>
+    </html>
