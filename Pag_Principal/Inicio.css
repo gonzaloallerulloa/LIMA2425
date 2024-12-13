@@ -1,0 +1,187 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(12, 11, 10);
+    cursor: url(imagenes_Inicio/Mew.png), auto;
+  
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(15, 15, 13);
+    border-radius: 5px;
+    height: 150px;
+    border-radius: 6em;
+    color:rgb(250, 243, 243) ;
+  
+    
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Opening{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.opening1{
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 150px;
+    border-radius: 6em;
+    background-image: url(imagenes_Inicio/130610.gif);
+ }
+
+.opening3{
+   height: 150px;
+   width: 150px;
+   border-radius: 6em;
+   background-image: url(imagenes_Inicio/130610.gif);
+}
+hr{
+    height: 20px;
+    background-color: rgb(221, 214, 109);
+    color: white;
+    
+}
+.cabecera{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    border-radius: 10px;
+}
+.primer_boton{
+    height: 60px;
+    width: 200px;
+    background-image: url(imagenes_Inicio/130610.gif);
+    
+   
+}
+.segundo_boton{
+    height: 60px;
+    width: 200px;
+    background-image: url(imagenes_Inicio/130610.gif);
+    
+}
+.tercero_boton{
+    height: 60px;
+    width: 200px;
+    background-image: url(imagenes_Inicio/130610.gif);
+}
+.cuarto_boton{
+    height: 60px;
+    width: 200px;
+    background-image: url(imagenes_Inicio/130610.gif);
+ 
+
+}
+.div2{
+    background-color: rgb(30, 31, 28);
+    background-image: url(imagenes_Inicio/130610.gif);
+    
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(12, 8, 8);
+    color: white;
+}   
+p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    opacity: 0.8;
+    background-color: rgb(221, 214, 109);
+}
+.div_pokes{
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+    background-color: rgb(210, 216, 120);
+    
+}
+
+.gif1{
+    display:flex;
+   
+    
+}
+.Fulldex{
+   border-radius: 2em;
+
+    
+}
+.pokemontodos{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    background-image: url(imagenes_Inicio/130610.gif);
+  
+}
+.div_padre{
+    background-color: rgb(32, 26, 26);
+    height: 70%;
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 1em;
+    
+    
+}
+.table{
+    color: white;
+    
+}
+th{
+    color: white;
+} 
+.over-used{
+    display: flex;
+    justify-content: center;
+   
+}
+.under-used{
+    display: flex;
+    justify-content: center;
+}
+.never-used{
+    display: flex;
+    justify-content: center;
+}
+.img_over{
+    background-color: white;
+}
+.img_under{
+    background-color: white;
+}
+.img_never{
+    background-color: white;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(56, 53, 53);
+    align-items: center;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.foot{
+  
+    border-radius: 0px;
+    color: white;
+    background-color: rgb(56, 53, 53);
+
+}
+th{
+    background-color: rgb(221, 214, 109);
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+a:link{
+    color: green;
+    text-decoration: none;
+
+}
+a:visited{
+    color: green;
+}
