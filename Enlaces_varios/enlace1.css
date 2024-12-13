@@ -1,0 +1,61 @@
+
+
+.body2{
+   background-color: black;
+}
+.divpadre{
+    margin-top:10% ;
+    height: 700px;
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 1em;
+    background-image:url(../imagenes/maximo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+p{color: 
+    black;
+}
+
+.div2{
+    display: flex;
+ 
+    background-color: aqua;
+    opacity: 0.6;
+    border-radius: 2em;
+    justify-content: center;
+    align-items: center;
+}
+.div3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+.Boton{
+    display: flex;
+    justify-content: center;
+   
+    height: px;
+    align-items: center;
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+button{
+    height: 40px;
+    color: green;
+    opacity: 0.8;
+    border-radius: 1em;
+  
+    
+}
+a:link{
+    color: green;
+    text-decoration: none;
+
+}
+a:visited{
+    color: green;
+}

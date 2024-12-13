@@ -1,0 +1,93 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-image: url(imagenes/2intentoporfi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.divpadre{
+    margin-top:10% ;
+    background-color: rgb(32, 26, 26);
+    height: 70%;
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 1em;
+
+}
+h3{
+  background-image: url(Pag_Principal/imagenes_Inicio/130610.gif);
+
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    color: rgb(10, 9, 9);
+    height: 40%;
+    width: 40%;
+}
+.frase_principal{
+    display: flex;
+    justify-content: center;
+    background-image: url(imagenes/pikachubanner.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    height: 180px;
+}
+.Boton{
+    display: flex;
+    justify-content: center;
+    background-image: url(imagenes/scyther.jpeg);
+    height: 170px;
+    align-items: center;
+    background-repeat:no-repeat;
+    background-size: 100%;
+   
+  
+}
+button{
+    height: 40px;
+    color: green;
+    opacity: 0.8;
+    border-radius: 1em;
+}
+.div3{
+    display: flex;
+    justify-content: center;
+    background-image: url(imagenes/tipoagua.jpeg);
+    height: 170px;
+    align-items: center;
+    background-repeat:no-repeat;
+    background-size: 100%;
+   
+}
+.div5{
+        display: flex;
+        justify-content: center;
+        background-image: url(imagenes/pokemonsfuego.jpeg);
+        height: 190px;
+        align-items: center;
+  
+        background-size: 50%;
+        border-bottom-left-radius: 1em;
+        border-bottom-right-radius: 1em;
+       
+    }
+    .div4{
+        display: flex;
+        justify-content: center;
+        background-image: url(imagenes/porfavor_funciona.jpg);
+        height: 170px;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    a:link{
+        color: green;
+        text-decoration: none;
+    
+    }
+    a:visited{
+        color: green;
+    }
